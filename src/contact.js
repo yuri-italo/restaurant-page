@@ -3,7 +3,7 @@ export default () => {
   div.classList.add("contact-info");
 
   div.innerHTML = `
-    <h2>Contact Us</h2>
+    <h1>Contact Us</h1>
     <p>123 Savory Lane, Flavor Heights, NY 10012 | 📞 (555) 999-9999 | 🌐 <a href="#">www.fake-site-name.com</a></p>
     <ul>
       <li href="#">Facebook</li> 
