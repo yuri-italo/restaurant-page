@@ -68,30 +68,6 @@ header nav .buttons {
   gap: var(--gutter-sm);
 }
 
-footer {
-  text-align: center;
-  max-width: 960px;
-  margin: var(--gutter-lg) auto 0;
-  padding: var(--gutter-sm);
-  background-color: var(--color-200);
-  color: var(--color-800);
-  border-top: 2px solid var(--color-300);
-  border-radius: 8px;
-  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.05);
-}
-
-footer h3 {
-  margin: 0;
-  font-size: var(--size-2xl);
-  color: var(--color-900);
-}
-
-footer p {
-  margin: 8px 0 0;
-  font-size: var(--size-md);
-  color: var(--color-800);
-}
-
 .btn {
   display: inline-block;
   padding: 0.5rem 1.25rem;
@@ -182,7 +158,7 @@ footer p {
 
 .menu-info {
   max-width: 960px;
-  margin: var(--gutter-lg) auto;
+  margin: 0 auto;
   padding: var(--gutter-lg);
   background-color: var(--color-50);
   border-radius: var(--gutter-sm);
@@ -205,12 +181,19 @@ footer p {
   padding: var(--gutter-sm);
   border-radius: var(--gutter-sm);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+  background-color: var(--color-300);
+  transform: scale(1.02);
 }
 
 .menu-item h2 {
   font-size: var(--size-xl);
   color: var(--color-600);
   margin-bottom: var(--gutter-sm);
+  text-align: center;
 }
 
 .menu-item span {
@@ -228,25 +211,34 @@ footer p {
 }
 
 .menu-item img {
-  max-width: 100%;
   border-radius: var(--gutter-sm);
   margin-top: var(--gutter-sm);
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
-.menu-item:hover {
-  background-color: var(--color-300);
-  transform: scale(1.02);
-  transition: transform 0.3s ease, background-color 0.3s ease;
+.image-credit {
+  margin-top: var(--gutter-xs);
+  font-size: var(--size-xs);
+  color: var(--color-700);
+  text-align: center;
 }
 
-.menu-item img:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
+.image-credit a {
+  color: var(--color-700);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.image-credit a:hover {
+  color: var(--color-500);
 }
 
 .contact-info {
   max-width: 960px;
-  margin: var(--gutter-lg) auto;
+  margin: 0 auto;
   padding: var(--gutter-lg);
   background-color: var(--color-50);
   border-radius: var(--gutter-sm);
@@ -295,4 +287,28 @@ footer p {
 
 .contact-info li:hover {
   color: var(--color-500);
+}
+
+footer {
+  text-align: center;
+  max-width: 960px;
+  margin: var(--gutter-lg) auto 0;
+  padding: var(--gutter-sm);
+  background-color: var(--color-200);
+  color: var(--color-800);
+  border-top: 2px solid var(--color-300);
+  border-radius: 8px;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.05);
+}
+
+footer h3 {
+  margin: 0;
+  font-size: var(--size-2xl);
+  color: var(--color-900);
+}
+
+footer p {
+  margin: 8px 0 0;
+  font-size: var(--size-md);
+  color: var(--color-800);
 }

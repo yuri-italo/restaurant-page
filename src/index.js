@@ -6,7 +6,7 @@ import createMenu from "./menu.js";
 import createContact from "./contact.js";
 
 const content = document.querySelector("#content");
-content.appendChild(createHome());
+content.appendChild(createMenu());
 
 document
   .querySelectorAll(".btn")
