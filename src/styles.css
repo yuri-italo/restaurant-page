@@ -179,3 +179,67 @@ footer p {
   font-size: var(--size-md);
   margin-bottom: var(--gutter-sm);
 }
+
+.menu-info {
+  max-width: 960px;
+  margin: var(--gutter-lg) auto;
+  padding: var(--gutter-lg);
+  background-color: var(--color-50);
+  border-radius: var(--gutter-sm);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.menu-info h1 {
+  font-size: var(--size-5xl);
+  color: var(--color-500);
+  text-align: center;
+  margin-bottom: var(--gutter-lg);
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: var(--gutter-lg);
+  background-color: var(--color-200);
+  padding: var(--gutter-sm);
+  border-radius: var(--gutter-sm);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h2 {
+  font-size: var(--size-xl);
+  color: var(--color-600);
+  margin-bottom: var(--gutter-sm);
+}
+
+.menu-item span {
+  font-size: var(--size-md);
+  font-weight: bold;
+  color: var(--color-500);
+  margin-bottom: var(--gutter-sm);
+}
+
+.menu-item p {
+  font-size: var(--size-md);
+  color: var(--color-900);
+  margin-bottom: var(--gutter-sm);
+  text-align: center;
+}
+
+.menu-item img {
+  max-width: 100%;
+  border-radius: var(--gutter-sm);
+  margin-top: var(--gutter-sm);
+}
+
+.menu-item:hover {
+  background-color: var(--color-300);
+  transform: scale(1.02);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.menu-item img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
