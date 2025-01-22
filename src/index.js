@@ -1,3 +1,6 @@
+import "./reset.css";
+import "./styles.css";
+
 import createHome from "./home.js";
 import createMenu from "./menu.js";
 import createContact from "./contact.js";
@@ -14,13 +17,13 @@ function handleClick(event) {
   content.innerHTML = "";
 
   switch (buttonName) {
-    case "Home":
+    case "HOME":
       content.appendChild(createHome());
       break;
-    case "Menu":
+    case "MENU":
       content.appendChild(createMenu());
       break;
-    case "Contact":
+    case "CONTACT":
       content.appendChild(createContact());
       break;
     default:
