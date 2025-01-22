@@ -1,3 +1,5 @@
+import "../style/contact.css";
+
 export default () => {
   const div = document.createElement("div");
   div.classList.add("contact-info");

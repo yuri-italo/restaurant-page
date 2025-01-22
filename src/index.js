@@ -1,12 +1,12 @@
-import "./reset.css";
-import "./styles.css";
+import "./style/reset.css";
+import "./style/styles.css";
 
-import createHome from "./home.js";
-import createMenu from "./menu.js";
-import createContact from "./contact.js";
+import createHome from "./modules/home.js";
+import createMenu from "./modules/menu.js";
+import createContact from "./modules/contact.js";
 
 const content = document.querySelector("#content");
-content.appendChild(createMenu());
+content.appendChild(createHome());
 
 document
   .querySelectorAll(".btn")

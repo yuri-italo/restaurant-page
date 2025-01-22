@@ -1,3 +1,5 @@
+import "../style/home.css";
+
 export default () => {
   const createSection = (title, content) => {
     const section = document.createElement("div");

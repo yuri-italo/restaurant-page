@@ -1,7 +1,8 @@
-import caesarSaladImage from "./assets/images/caesar-salad.jpg";
-import cheeseburgerImage from "./assets/images/cheeseburger.jpg";
-import chocolateImage from "./assets/images/chocolate-lava-cake.jpg";
-import margheritaImage from "./assets/images/margherita-pizza.jpg";
+import "../style/menu.css";
+import caesarSaladImage from "../assets/images/caesar-salad.jpg";
+import cheeseburgerImage from "../assets/images/cheeseburger.jpg";
+import chocolateImage from "../assets/images/chocolate-lava-cake.jpg";
+import margheritaImage from "../assets/images/margherita-pizza.jpg";
 
 const menuItems = [
   {

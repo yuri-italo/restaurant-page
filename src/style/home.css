@@ -1,0 +1,59 @@
+.restaurant-info {
+  max-width: 960px;
+  margin: 0 auto;
+  background: var(--color-50);
+  border-radius: var(--gutter-sm);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: var(--gutter-lg);
+}
+
+.restaurant-info h1,
+.restaurant-info h2 {
+  text-align: center;
+  margin-bottom: var(--gutter-sm);
+}
+
+.restaurant-info h1 {
+  font-size: var(--size-5xl);
+  color: var(--color-500);
+}
+
+.restaurant-info h2 {
+  font-size: var(--size-xl);
+  color: var(--color-600);
+}
+
+.restaurant-info .description,
+.restaurant-info .open-hours,
+.restaurant-info .location {
+  margin-bottom: var(--gutter-lg);
+}
+
+.restaurant-info .description p,
+.restaurant-info p {
+  font-size: var(--size-md);
+  color: var(--color-900);
+  margin-bottom: var(--gutter-sm);
+}
+
+.restaurant-info .open-hours,
+.restaurant-info .location {
+  background: var(--color-200);
+  padding: var(--gutter-sm);
+  border-radius: var(--gutter-sm);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-info ul {
+  padding-left: 1.5rem;
+}
+
+.restaurant-info li {
+  font-size: var(--size-md);
+  margin-bottom: 0.5rem;
+}
+
+.restaurant-info strong {
+  color: var(--color-600);
+}
