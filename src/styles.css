@@ -131,7 +131,7 @@ footer p {
 }
 
 .restaurant-info h1 {
-  font-size: var(--size-4xl);
+  font-size: var(--size-5xl);
   color: var(--color-500);
   text-align: center;
   margin-bottom: var(--gutter-sm);
@@ -242,4 +242,57 @@ footer p {
 .menu-item img:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
+}
+
+.contact-info {
+  max-width: 960px;
+  margin: var(--gutter-lg) auto;
+  padding: var(--gutter-lg);
+  background-color: var(--color-50);
+  border-radius: var(--gutter-sm);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h1 {
+  font-size: var(--size-5xl);
+  color: var(--color-500);
+  text-align: center;
+  margin-bottom: var(--gutter-lg);
+}
+
+.contact-info p {
+  font-size: var(--size-md);
+  color: var(--color-900);
+  text-align: center;
+  margin-bottom: var(--gutter-lg);
+}
+
+.contact-info a {
+  color: var(--color-500);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info a:hover {
+  color: var(--color-600);
+  text-decoration: underline;
+}
+
+.contact-info ul {
+  display: flex;
+  justify-content: center;
+  gap: var(--gutter-lg);
+  padding-left: 0;
+  margin-top: var(--gutter-sm);
+}
+
+.contact-info li {
+  font-size: var(--size-md);
+  color: var(--color-800);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.contact-info li:hover {
+  color: var(--color-500);
 }
